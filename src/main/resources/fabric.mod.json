@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cullingmod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Culling Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Culling"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,17 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "se.culling.cullingmod.CullingMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cullingmod.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.17",
     "fabric-api": "*",
-    "minecraft": "~1.19.4",
+    "minecraft": "~1.19.2",
     "java": ">=17"
   },
   "suggests": {
